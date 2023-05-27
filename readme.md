@@ -15,4 +15,5 @@ train_data: 数据文件，包括数据分析、转换和生成代码
 
 ## 使用方法
 使用bert_biaffine模型：执行`python main_biafine.py` 即可
+
 使用bert_bi-lstm+crf模型：按照main_biafine.py文件替换成对应的网络即可
