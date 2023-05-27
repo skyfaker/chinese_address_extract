@@ -3,39 +3,39 @@
 
 ## 文件结构
 ├─code
-│  │  main_biafine.py
-│  │  
-│  ├─dataset
-│  │  │  ner_data.py
-│  │  │  ner_dataset.py
-│  │          
-│  ├─model
-│  │  │  base_model.py
-│  │  │  bert_embedding_model.py
-│  │  │  biaffine_model.py
-│  │  │  biaffine_model_label_map.json
-│  │  │  lstm_crf_model.py
-│  │
-│  ├─saved_model
-│  └─utils
-│      │  config.py
-│      │  util.py
-│              
-└─train_data
-    │  analise_data.py
-    │  augment_data_type.txt
-    │  China-district.txt
-    │  data_augment.py
-    │  dev.txt
-    │  final_test.txt
-    │  prov-city-district.txt
-    │  readme.txt
-    │  train.txt
-    │  中文地址要素解析标注规范.pdf
-    │  
-    └─raw_data
-            dev.conll
-            train.conll
+│  │  main_biafine.py \
+│  │  \
+│  ├─dataset\
+│  │  │  ner_data.py\
+│  │  │  ner_dataset.py\
+│  │          \
+│  ├─model\
+│  │  │  base_model.py\
+│  │  │  bert_embedding_model.py\
+│  │  │  biaffine_model.py\
+│  │  │  biaffine_model_label_map.json\
+│  │  │  lstm_crf_model.py\
+│  │\
+│  ├─saved_model\
+│  └─utils\
+│      │  config.py\
+│      │  util.py\
+│              \
+└─train_data\
+    │  analise_data.py\
+    │  augment_data_type.txt\
+    │  China-district.txt\
+    │  data_augment.py\
+    │  dev.txt\
+    │  final_test.txt\
+    │  prov-city-district.txt\
+    │  readme.txt\
+    │  train.txt\
+    │  中文地址要素解析标注规范.pdf\
+    │  \
+    └─raw_data\
+            dev.conll\
+            train.conll\
 
 code: 代码文件
     main_biafine.py: 基于bert和双仿射的模型入口
