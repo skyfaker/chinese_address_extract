@@ -5,10 +5,12 @@
 ![](/train_data/文件结构.png)
 
 code: 代码文件
+    
     main_biafine.py: 基于bert和双仿射的模型入口
     dataset: 数据类定义
     model: 模型和网络定义
     utils: 工具方法
+
 train_data: 数据文件，包括数据分析、转换和生成代码
 
 ## 使用方法
